@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>CountrySelector</title>
 </head>
 <body>
@@ -10,23 +11,35 @@
     </div>
 
     <form action="">
-        <label for="">First Name: </label>
-        <input type="text" placeholde="Enter First Name...">
-        <label for="">Last Name:</label>
-        <input type="text" placeholder="Enter Last Name...">
-        <label for="">Email: </label>
-        <input type="email" placeholder="Type email here...">
+        <table>
+            <tr>
+                <td><label for="">First Name: </label></td>
+                <td><input type="text" placeholder="Enter First name..."></td>
+            </tr>
 
-        <label for="">Select your continent: </label>
-        <select name="" id="continent">
-            <option value="">Africa</option>
-            <option value="">Antarctica</option>
-            <option value="">Asia</option>
-            <option value="">Australia</option>
-            <option value="">Europe</option>
-            <option value="">North America</option>
-            <option value="">South America</option>
-        </select>
+            <tr>
+                <td><label for="">Last Name: </label></td>
+                <td><input type="text" placeholder="Enter Last name..."></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Email: </label></td>
+                <td><input type="text" placeholder="Enter Email..."></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Continent: </label></td>
+                <td><select name="" id="">
+                    <option value="">Africa</option>
+                    <option value="">Antarctica</option>
+                    <option value="">Asia</option>
+                    <option value="">Australia</option>
+                    <option value="">Europe</option>
+                    <option value="">North America</option>
+                    <option value="">South America</option>
+                </select></td>
+            </tr>
+        </table> 
     </form>
 </body>
 </html>
