@@ -26,5 +26,17 @@ input, select {
     margin: 10px 0;
 }
 
+#submit {
+    background-color: darkolivegreen;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: darkolivegreen;
+    transition: 0.5s;
+}
+
 
 
